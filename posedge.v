@@ -12,6 +12,5 @@ module ctr(input	up_down,
         out <= out + 1;
       else 
         out <= out - 1;
-      
       end
 endmodule
