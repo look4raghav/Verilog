@@ -4,7 +4,6 @@ module (input a,
 
 endmodule
 
-
 module ( input signed a, b,
          output c);
     wire a, b;
