@@ -1,3 +1,4 @@
+
 module checker( clk, rst, i, o);
   parameter I_WIDTH = 2;
   parameter X_WIDTH = 2;
