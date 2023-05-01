@@ -22,5 +22,3 @@ module checker( clk, rst, i, o);
   assign n[2] = s[1] & x[1];
   assign o = ~rst & (s[2]);
 endmodule
-  
-  
