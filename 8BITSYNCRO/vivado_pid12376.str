@@ -1,0 +1,99 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 12376
+
+Current time: 	5/2/23 10:29:54 AM
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	20102103
+User directory: E:/8BITSYNCRO
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 523 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'E:\8BITSYNCRO\8BITCLOCKCNTRLD.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 60 mb (+60292kb) [00:00:02]
+// [Engine Memory]: 414 mb (+282651kb) [00:00:02]
+// [Engine Memory]: 444 mb (+31059kb) [00:00:03]
+// [GUI Memory]: 66 mb (+6417kb) [00:00:03]
+// [Engine Memory]: 447 mb (+3571kb) [00:00:03]
+// [GUI Memory]: 88 mb (+23145kb) [00:00:03]
+// [Engine Memory]: 453 mb (+6758kb) [00:00:03]
+// [Engine Memory]: 460 mb (+7008kb) [00:00:04]
+// [Engine Memory]: 461 mb (+1306kb) [00:00:04]
+// [Engine Memory]: 463 mb (+1253kb) [00:00:04]
+// [Engine Memory]: 465 mb (+2383kb) [00:00:04]
+// [Engine Memory]: 514 mb (+51625kb) [00:00:04]
+// Tcl Message: open_project {E:\8BITSYNCRO\8BITCLOCKCNTRLD.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/20102108/8BITCLOCKCNTRLD' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 523 mb (+8822kb) [00:00:04]
+dismissDialog("Opening project 'E:\\8BITSYNCRO\\8BITCLOCKCNTRLD.xpr'"); // co:P (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 523 MB. GUI used memory: 30 MB. Current time: 5/2/23 10:29:56 AM
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eight_bit_counter (eight_bit_counter.v)]", 1, false); // u:k (w:JPanel, cg:JFrame)
+// a:a (cg:JFrame): Critical Messages: addNotify
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eight_bit_counter (eight_bit_counter.v)]", 1, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eight_bit_counter (eight_bit_counter.v)]", 1, false); // u:k (w:JPanel, cg:JFrame)
+// [Engine Memory]: 524 mb (+1503kb) [00:00:36]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eight_bit_counter (eight_bit_counter.v)]", 1, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, EIGHTBIT.xdc]", 4, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, EIGHTBIT.xdc]", 4, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("EIGHTBIT.xdc", 248, 36); // aU:J (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 525 mb (+1220kb) [00:00:46]
+// [Engine Memory]: 527 mb (+1761kb) [00:00:55]
+// Elapsed time: 45 seconds
+selectCodeEditor("EIGHTBIT.xdc", 139, 155); // aU:J (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 534 mb (+7507kb) [00:01:29]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "eight_bit_counter.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "eight_bit_counter.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("eight_bit_counter.v", 200, 52); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("eight_bit_counter.v", 596, 128); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3, true); // u:k (w:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3, true, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, EIGHTBIT.xdc]", 4, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, EIGHTBIT.xdc]", 4, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("EIGHTBIT.xdc", 247, 108); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("EIGHTBIT.xdc", 120, 159); // aU:J (JPanel:JComponent, cg:JFrame)

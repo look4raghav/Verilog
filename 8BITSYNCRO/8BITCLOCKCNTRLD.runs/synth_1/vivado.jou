@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon May 01 09:31:39 2023
+# Process ID: 9016
+# Log file: C:/Users/20102108/eightbitsynchronous/eightbitsynchronous.runs/synth_1/eight_bit_counter.vds
+# Journal file: C:/Users/20102108/eightbitsynchronous/eightbitsynchronous.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source eight_bit_counter.tcl

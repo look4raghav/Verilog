@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon May 01 11:26:21 2023
+# Process ID: 8304
+# Log file: C:/Users/20102108/8BITCLOCKCNTRLD/vivado.log
+# Journal file: C:/Users/20102108/8BITCLOCKCNTRLD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\20102108\8BITCLOCKCNTRLD\8BITCLOCKCNTRLD.xpr}
+open_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+connect_hw_server -host localhost -port 60001 -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210248780470]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210248780470]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/20102108/8BITCLOCKCNTRLD/8BITCLOCKCNTRLD.runs/impl_1/eight_bit_counter.bit} [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {C:/Users/20102108/8BITCLOCKCNTRLD/8BITCLOCKCNTRLD.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {C:/Users/20102108/8BITCLOCKCNTRLD/8BITCLOCKCNTRLD.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/20102108/8BITCLOCKCNTRLD/8BITCLOCKCNTRLD.runs/impl_1/eight_bit_counter.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
